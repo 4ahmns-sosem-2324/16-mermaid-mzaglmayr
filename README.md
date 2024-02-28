@@ -12,12 +12,12 @@ classDiagram
     }
     class PlayerController {
         - speed : float
-        + void Update()
+        - void Update()
     }
  
     class EnemyController {
         - chaseSpeed : float
         - target : Transform
-        + void Update()
+        - void Update()
     }
 ```
